@@ -4,7 +4,6 @@
   - [🛠 Built With](#built-with)
     - [Tech Stack](#tech-stack)
     - [Key Features](#key-features)
-  - [🚀 Live Demo](#live-demo)
 - [💻 Getting Started](#getting-started)
   - [Setup](#setup)
   - [Prerequisites](#prerequisites)
@@ -20,9 +19,9 @@
 - [❓ FAQ](#faq)
 - [📝 License](#license)
 
-# 📖 [CATALOGUE_OF_THINGS] <a name="about-project"></a>
+# 📖 [BLOG_APP] <a name="about-project"></a>
 
-**[CATALOGUE_OF_THINGS]** is the ruby capstone project, this project manages data ranging from music albums, games and books. It's built using ruby.
+**[BLOG_APP]** is the Ruby on Rails project, this project is a Blog that uses Postgesql as a database.
 
 ## 🛠 Built With <a name="built-with"></a>
 
@@ -33,15 +32,16 @@
   <ul>
     <li>Ruby</li>
   </ul>
+  <summary>Database</summary>
+  <ul>
+    <li>Postgresql</li>
+  </ul>
 </details>
 
 ### Key Features <a name="key-features"></a>
 
-- **[Has independent classes]**
-- **[Has 4 1 to many associations]**
-- **[Has basic UI.]**
-- [ ] **[Preserve data in Json files]**
-- [ ] **[Unit tests]**
+- **[Set up Postgres Database]**
+- **[Has associations]**
 
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
@@ -56,7 +56,7 @@ Clone this repository to your desired folder:
 
 ```sh
   cd my-folder
-  git git@github.com:zeff96/Ruby_Capstone_Project.git
+  git git@github.com:codedit334/Blog_App.git
 ```
 
 ### Install
@@ -78,22 +78,21 @@ Install this project with:
 - Twitter: [@oussedit](https://twitter.com/oussedit)
 - LinkedIn: [Oussama Elabdioui](https://www.linkedin.com/in/oussama-elabdioui-4677a41b6/)
 
-👤 **Sane Myburg**
-
-- GitHub: [@SaneMyburg](https://github.com/SaneMyburg)
-- LinkedIn: [LinkedIn](https://www.linkedin.com/in/sane-myburg/)
-
-👤Nicholas Kwamena Amissah <a name="authors"></a>
-
-- GitHub: [Nicholas Amissah](https://github.com/atok624)
-- Twitter: [Nicholas Amissah](https://twitter.com/MysticalAmissah)
-- LinkedIn: [Nicholas Amissah](https://www.linkedin.com/in/nicholas-amissah-153b09154)
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
 ## 🔭 Future Features <a name="future-features"></a>
 
-- [ ] **[Refactor the code to unify methods]**
+- [ ] **[Validations and Model specs.]**
+- [ ] **[Processing data in models.]**
+- [ ] **[Setup and controllers.]**
+- [ ] **[Controllers specs.]**
+- [ ] **[Views.]**
+- [ ] **[Forms.]**
+- [ ] **[Integration specs for Views and fixing n+1 problems.]**
+- [ ] **[Add Devise.]**
+- [ ] **[Add authorization rules.]**
+- [ ] **[Add API endpoints.]**
 
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
@@ -102,7 +101,7 @@ Install this project with:
 
 Contributions, issues, and feature requests are welcome!
 
-Feel free to check the [issues page](https://github.com/codedit334/Ruby_Capstone_Project/issues).
+Feel free to check the [issues page](https://github.com/codedit334/Blog_App/issues).
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
