@@ -85,7 +85,7 @@ Install this project with:
 
 ## 🔭 Future Features <a name="future-features"></a>
 
-- [ ] **[Validations and Model specs.]**
+- [] **[Validations and Model specs.]**
 - [ ] **[Setup and controllers.]**
 - [ ] **[Controllers specs.]**
 - [ ] **[Views.]**
