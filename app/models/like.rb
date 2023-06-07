@@ -1,5 +1,5 @@
 class Like < ApplicationRecord
-  belongs_to :author, class_name: 'User', foreign_key: 'author_id' # specify the custom foreign key name
+  belongs_to :author, class_name: 'User', foreign_key: 'author_id' 
   belongs_to :post
 
   after_create :update_post_likes_counter
