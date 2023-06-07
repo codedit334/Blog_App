@@ -54,6 +54,9 @@ group :development, :test do
   gem 'rspec'
   gem 'rspec-rails'
   gem 'rubocop'
+  gem 'factory_bot_rails'
+  gem 'shoulda-matchers'
+  gem 'factory_bot_rails'
 end
 
 group :development do
@@ -72,4 +75,5 @@ group :test do
   gem 'capybara'
   gem 'selenium-webdriver'
   gem 'webdrivers'
+  gem 'shoulda-matchers'
 end
