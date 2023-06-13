@@ -45,6 +45,7 @@
 - **[Processing data in models.]**
 - **[Validations and Model specs.]**
 - **[Setup and controllers.]**
+- **[Controllers specs.]**
 
 
 
@@ -88,7 +89,7 @@ Install this project with:
 ## 🔭 Future Features <a name="future-features"></a>
 
 
-- [ ] **[Controllers specs.]**
+
 - [ ] **[Views.]**
 - [ ] **[Forms.]**
 - [ ] **[Integration specs for Views and fixing n+1 problems.]**
