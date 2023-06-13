@@ -12,7 +12,7 @@ RSpec.describe PostsController, type: :request do
       get user_posts_path(user)
       expect(response).to have_http_status(:success)
       expect(response).to render_template(:index)
-      expect(response.body).to include("Here is a list of posts and comments for a given user")
+      expect(response.body).to include('Here is a list of posts and comments for a given user')
     end
   end
 
@@ -28,7 +28,7 @@ RSpec.describe PostsController, type: :request do
       get user_post_path(user, post)
       expect(response).to have_http_status(:success)
       expect(response).to render_template(:show)
-      expect(response.body).to include("Here is a post and its list of comments")
+      expect(response.body).to include('Here is a post and its list of comments')
     end
   end
 end
