@@ -1,4 +1,4 @@
-body  {
+body {
   background-color: white;
   margin: 0;
   padding: 0;
@@ -21,21 +21,12 @@ body  {
   margin: 5px 0;
 }
 
-.userNameWrapper > div h2,
-.userNameWrapper > div h6 {
-  margin: 0 10px;
-}
-
 .userNameWrapper .userName {
   display: flex;
   flex-direction: column;
   justify-content: space-between;
   height: 70px;
   width: 300px;
-}
-
-.userName > h6 {
-  align-self: flex-end;
 }
 
 .bio,
@@ -51,47 +42,52 @@ body  {
 .post > * {
   margin: 0 10px;
   margin-bottom: 15px;
-  
 }
 
 .count {
-    align-self: flex-end;
+  align-self: flex-end;
 }
 
 ul {
-    padding: 0;
-    list-style-type: none;
+  padding: 0;
+  list-style-type: none;
 }
 
 button {
-    width: 150px;
-    background-color: transparent;
-    border: none;
-    cursor: pointer;
-    box-shadow: 5px 5px black;
-    border: 2px solid black;
-    margin: 10px 0;
-    padding: 5px 0;
+  width: 150px;
+  background-color: transparent;
+  cursor: pointer;
+  box-shadow: 5px 5px black;
+  border: 2px solid black;
+  margin: 10px 0;
+  padding: 5px 0;
 }
 
 h6 {
-    font-size: 15px;
+  font-size: 15px;
 }
 
 .button {
-    display: flex;
-    width: 100%;
-    justify-content: center;
+  display: flex;
+  width: 100%;
+  justify-content: center;
 }
 
 .comments {
-    border: 5px solid black;
-    margin-bottom: 15px;
+  border: 5px solid black;
+  margin-bottom: 15px;
 }
 
 .comments ul {
-    margin: 0 10px;
+  margin: 0 10px;
 }
 
+/* Linter Request: KEEP AT THE END */
+.userName > h6 {
+  align-self: flex-end;
+}
 
-
+.userNameWrapper > div h2,
+.userNameWrapper > div h6 {
+  margin: 0 10px;
+}
