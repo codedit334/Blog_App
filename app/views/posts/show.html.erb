@@ -1,6 +1,9 @@
 <div class="wrapper">
   <div class="post">
-    <h2>Post #<%= @user.posts.index(@post) + 1 %> by <%= @user.name %></h2>
+    <div class="postHeader">
+      <h2>Post #<%= @user.posts.index(@post) + 1 %> by <%= @user.name %></h2>
+      <h6>Comments: <%= @post.comments.count %>,&nbsp;Likes: <%= @post.likes.count %></h6>
+    </div>
     <h3><%= @post.title %></h3>
     <p><%= @post.text %></p>
   </div>
