@@ -73,6 +73,17 @@ h6 {
   justify-content: center;
 }
 
+.button a {
+  padding: 5px 10px;
+  border: 1px solid black;
+  text-decoration: none;
+  color: black;
+  box-shadow: 5px 5px black;
+}
+
+.button a:visited {
+  color: black;
+}
 .comments {
   border: 5px solid black;
   margin-bottom: 15px;
