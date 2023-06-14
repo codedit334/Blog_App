@@ -46,7 +46,7 @@
 - **[Validations and Model specs.]**
 - **[Setup and controllers.]**
 - **[Controllers specs.]**
-
+- **[Views.]**
 
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
@@ -90,7 +90,7 @@ Install this project with:
 
 
 
-- [ ] **[Views.]**
+
 - [ ] **[Forms.]**
 - [ ] **[Integration specs for Views and fixing n+1 problems.]**
 - [ ] **[Add Devise.]**
