@@ -1,4 +1,3 @@
-<h2>Here is a list of users</h2>
 <div class="wrapper">
   <ul>
     <% @users.each do |user| %>
@@ -6,7 +5,7 @@
           <div><img alt="Profile P."/></div>
 
             <div class="userName">
-          <%= link_to user_path(user), class: 'userName' do %>
+          <%= link_to user_path(user), class: 'userNameAnchor' do %>
             <h2><%= user.name %></h2>
             <h6>Number of posts: <%= user.posts.count %></h6>
           <% end %>
