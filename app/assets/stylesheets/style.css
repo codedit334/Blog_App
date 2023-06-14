@@ -21,16 +21,16 @@ body {
   margin: 5px 0;
 }
 
-.userNameWrapper .userName,
-.userNameAnchor {
+.userName {
+  width: 80%;
+}
+
+.userNameAnchor,
+.userNameWrapper .userName {
   display: flex;
   flex-direction: column;
   justify-content: space-between;
   height: 70px;
-}
-
-.userName {
-  width: 80%;
 }
 
 .bio,
