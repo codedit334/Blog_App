@@ -14,7 +14,9 @@ class PostsController < ApplicationController
     @post = current_user.posts.new(post_params)
 
     if @post.save
-      redirect_to @post
+      # redirect_to @post
+      redirect_to user_posts_path(current_user)
+
     else
       flash[:alert] = 'Something went wrong'
       render 'new'
