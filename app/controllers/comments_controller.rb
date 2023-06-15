@@ -5,7 +5,6 @@ class CommentsController < ApplicationController
         @comment.author = current_user
     
         if @comment.save
-          redirect_to @post
           redirect_to user_post_path(current_user, @post)
         else
           render 'new'
