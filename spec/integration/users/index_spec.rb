@@ -1,10 +1,12 @@
 require 'rails_helper'
+require 'capybara/rspec'
+require 'capybara/rails'
 
 RSpec.feature 'User index page' do
   scenario 'displays all users with their name, profile picture, and number of posts' do
     user1 = FactoryBot.create(:user, name: 'John Doe', photo: 'www.unsplash.com/user/1', posts_counter: 1)
     user2 = FactoryBot.create(:user, name: 'Jane Doe', photo: 'www.unsplash.com/user/2', posts_counter: 0)
-    post1 = FactoryBot.create(:post, author: user1)
+    FactoryBot.create(:post, author: user1)
     visit users_path
 
     expect(page).to have_content(user1.name)

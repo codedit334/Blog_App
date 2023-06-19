@@ -1,4 +1,6 @@
 require 'rails_helper'
+require 'capybara/rspec'
+require 'capybara/rails'
 
 RSpec.feature 'User show page' do
   scenario 'displays user profile picture, name, number of posts, bio, and first 3 posts' do
