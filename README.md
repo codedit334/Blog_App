@@ -48,6 +48,8 @@
 - **[Controllers specs.]**
 - **[Views.]**
 - **[Forms.]**
+- **[Integration specs for Views and fixing n+1 problems.]**
+
 
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
@@ -84,6 +86,12 @@ Install this project with:
 - Twitter: [@oussedit](https://twitter.com/oussedit)
 - LinkedIn: [Oussama Elabdioui](https://www.linkedin.com/in/oussama-elabdioui-4677a41b6/)
 
+👤 **Musong Ernest**
+
+- GitHub: [@ernestmusong](https://github.com/ernestmusong)
+- Twitter: [@MusongAkeh](https://twitter.com/MusongAkeh)
+- LinkedIn: [Musong Ernest](https://www.linkedin.com/in/musongernestakeh/)
+
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
@@ -93,7 +101,6 @@ Install this project with:
 
 
 
-- [ ] **[Integration specs for Views and fixing n+1 problems.]**
 - [ ] **[Add Devise.]**
 - [ ] **[Add authorization rules.]**
 - [ ] **[Add API endpoints.]**
