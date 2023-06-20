@@ -1,8 +1,8 @@
 class PostsController < ApplicationController
   def index
     @user = User.find(params[:user_id])
-    @posts = @user.posts
-    # @posts = Post.includes(:author)
+    # @posts = @user.posts
+    @posts = Post.includes(:author)
   end
 
   def show
