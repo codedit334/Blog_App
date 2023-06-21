@@ -10,7 +10,14 @@
     <%= stylesheet_link_tag "style", "data-turbo-track": "reload" %>
     <%= javascript_importmap_tags %>
   </head>
-
+  <header>
+    <% if current_user %>
+      <%= link_to "New Post", new_user_post_path(current_user) %>
+      <%= link_to "Sign out", sign_out_user_path, method: :get %>
+    <% end %>
+    <p class="notice"><%= notice %></p>
+    <p class="alert"><%= alert %></p>
+  </header>
   <body>
     <%= yield %>
   </body>
