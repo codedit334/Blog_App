@@ -3,7 +3,6 @@ class CommentsController < ApplicationController
   # before_action :set_user_and_post
   load_and_authorize_resource :comment, through: :post
   def create
-
     @post = Post.find(params[:post_id])
     @comment = @post.comments.new(comment_params)
     @comment.author = current_user
