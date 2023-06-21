@@ -29,4 +29,8 @@
     </div>
   <% end %>
 
+  <% if can? :destroy, [@user, @post] %>
+    <%= link_to 'Delete', user_post_path(@user, @post), method: :delete, data: { confirm: 'Are you sure?' } %>
+  <% end %>
+
 </div>
