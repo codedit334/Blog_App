@@ -1,5 +1,5 @@
 class Devise::PasswordsController < DeviseController
-    respond_to :html, :json
+  respond_to :html, :json
 
   def create
     self.resource = resource_class.send_reset_password_instructions(resource_params)
@@ -15,13 +15,9 @@ class Devise::PasswordsController < DeviseController
     end
   rescue ActionController::UnknownFormat
     redirect_to root_path
-    
   end
 
-    def edit
-      super
-    end
-    def new
-        self.resource = resource_class.new
-    end
+  def new
+    self.resource = resource_class.new
+  end
 end
