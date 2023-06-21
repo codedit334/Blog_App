@@ -118,7 +118,8 @@ h6 {
 .form_wrapper {
   height: 50vh;
 }
-.sign_up {
+
+.form_title {
   text-align: center;
 }
 
@@ -186,3 +187,8 @@ form {
 .actions input[type="submit"]:hover {
   background-color: #3e8e41;
 }
+
+/* .links {
+  width: 300px;
+  margin: 0 auto;
+} */
