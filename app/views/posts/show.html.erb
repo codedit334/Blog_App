@@ -23,13 +23,16 @@
     <div class="comments">
       <ul> 
         <% @comments.each do |comment|%>
-            <li><%= comment.author.name %>: <%= comment.text %></li>
+            <li>
+            <%= comment.author.name %>: <%= comment.text %>
+           
+            </li>
         <% end %>
       </ul>
     </div>
   <% end %>
 
   <% if can? :destroy,  @post %>
-    <%= button_to 'DELETE', user_post_path(@user, @post), method: :delete %>
+    <%= button_to 'DELETE Post', user_post_path(@user, @post), method: :delete %>
   <% end %>
 </div>
