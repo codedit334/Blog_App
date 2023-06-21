@@ -25,7 +25,9 @@
         <% @comments.each do |comment|%>
             <li>
             <%= comment.author.name %>: <%= comment.text %>
-           
+              <% if can? :destroy, comment %>
+                <%= button_to 'DELETE Comment', user_post_comment_path(@user, @post, comment), method: :delete %>
+              <% end %>
             </li>
         <% end %>
       </ul>
