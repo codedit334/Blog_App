@@ -12,5 +12,3 @@ class Api::V1::UsersController < ApplicationController
     @user = User.find(params[:user_id])
   end
 end
-
-

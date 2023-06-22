@@ -1,6 +1,6 @@
 class Api::V1::PostsController < ApplicationController
   before_action :set_user, only: [:index]
-  before_action :set_post, only: [:comments, :create_comment]
+  before_action :set_post, only: %i[comments create_comment]
 
   def index
     @posts = @user.posts
