@@ -49,8 +49,10 @@
 - **[Views.]**
 - **[Forms.]**
 - **[Integration specs for Views and fixing n+1 problems.]**
-- [ ] **[Add Devise.]**
-- [ ] **[Add authorization rules.]**
+- **[Add Devise.]**
+- **[Add authorization rules.]**
+- **[Add API endpoints.]**
+
 
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
@@ -98,12 +100,7 @@ Install this project with:
 
 ## 🔭 Future Features <a name="future-features"></a>
 
-
-
-
-
-
-- [ ] **[Add API endpoints.]**
+- [ ] **[Deploy.]**
 
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
